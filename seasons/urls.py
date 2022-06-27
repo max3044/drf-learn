@@ -1,14 +1,14 @@
 from django.urls import path
-from .views import SeasonDetailApiView
+from .views import SeasonDetailApiView, SeasonApiView
 
 app_name = 'seasons'
 
 
 urlpatterns = [
-    path(
-        '<int:number>/',
+
+    path("", SeasonApiView.as_view()),
+    path('<int:number>/',
         SeasonDetailApiView.as_view(), 
-    
-    # name='news-year-archive'
+        # name='news-year-archive'
     ),
 ]

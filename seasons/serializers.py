@@ -17,5 +17,7 @@ class SeasonSerializer(serializers.ModelSerializer):
             "slogan",
             "number",
             "numeral",
+            "description",
             "season_minted_nfts_count",
         ]
+

@@ -52,8 +52,6 @@ class Season(models.Model):
     
     number = models.PositiveSmallIntegerField(unique=True, blank=True, null=True)
   
-   
-
     description = models.TextField(blank=True, null=True)
 
     status = models.CharField(max_length=3, choices=SEASON_STATUSES, default="FUT")

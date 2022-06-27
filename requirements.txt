@@ -1,0 +1,9 @@
+PyYAML
+uritemplate
+Pygments
+markdown
+django
+djangorestframework
+django-filter
+django-guardian
+python-dotenv

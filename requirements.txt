@@ -7,3 +7,4 @@ djangorestframework
 django-filter
 django-guardian
 python-dotenv
+requests
